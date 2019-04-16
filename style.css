@@ -1,0 +1,218 @@
+body {
+    font-family: 'Muli', sans-serif;
+		margin: auto;
+		background-color: #f7f7ff;
+}
+
+
+div {
+    border: 2px solid lightgrey;
+    padding: 2%;
+}
+
+.nav ul {
+   	background-color: lightgrey;
+		position: fixed;
+		left: 0px;
+		right: 0px;
+		top: 0px;
+		margin-top: 0px;
+		list-style-type: none;
+        padding: 0px;
+        display: flex;
+        justify-content: space-around;
+        padding-right: 60%;
+}
+
+.nav li {
+		margin: 25px;
+}
+
+.nav a {
+	text-decoration: none;
+	color: #60656f;
+}
+
+.nav a:hover {
+	color: #279af1;
+}
+
+.nav a:active {
+	color: white;
+}
+
+.hero {
+        background-image: url('images/tokyotower.jpg');
+		margin-top: 15px;
+		padding: 200px;
+        text-align: center;
+}
+
+.hero h1{
+	font-size: 50px;
+}
+
+.infobar, .moreinfo {
+    text-align: center;
+}
+
+.parent {
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.mini {
+    flex: 1;
+    padding: 100px;
+    margin: 10px;
+}
+.one {
+	background-image: url("images/lanterns.jpg");
+	background-size: cover;
+}
+
+.one h3 {
+		color: dimgrey;
+		text-align: center;
+		background-color: white;
+		padding: 15px;
+}
+
+.two {
+	background-image: url("images/sushi.jpg");
+	background-size: cover;
+}
+
+.two h3 {
+		color: dimgrey;
+		text-align: center;
+		background-color: white;
+		padding: 15px;
+}
+
+.three {
+	background-image: url("images/puppets.jpg");
+	background-size: cover;
+}
+
+.three h3 {
+		color: dimgrey;
+		text-align: center;
+		background-color: white;
+		padding: 15px;
+}
+
+.blogpost {
+    display:flex;
+    flex-direction: column;
+}
+
+.pix {
+    padding: 200px;
+}
+
+/* here is some aboutme and connect css */
+.abouthero {
+    background-image: url("images/fountain.jpg");
+    margin-top: 15px;
+    padding: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.aboutme {
+    display: flex;
+}
+
+.about {
+    flex: 2;
+    padding: 100px;
+}
+
+.about a {
+	text-decoration: none;
+	color: #279af1;
+}
+
+.aboutpix {
+    flex: 1;
+    padding: 100px;
+}
+
+.contact {
+    width: 360px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+label {
+    display: block;
+    margin: 10px auto;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+    font-size: 12px;
+}
+
+.listing {
+	display: flex;
+}
+
+.eathero {
+    background-image: url("images/sushi.jpg");
+    margin-top: 15px;
+    padding: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.leftpixone {
+	flex: 2;
+    background-image:url("images/unagi.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.leftpixtwo {
+	flex: 2;
+    background-image:url("images/sushi.jpg");
+    background-size: cover;
+    background-position: bottom;
+    padding-top: 150px;
+    padding-bottom: 150px;
+
+}
+
+.rightinfo {
+	flex: 1;
+}
+
+.leftinfo {
+	flex: 1;
+}
+
+.rightpixone {
+     flex: 2;
+    background-image:url("images/sashimi.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+ 
+}
+
+.rightpixtwo {
+    flex: 2
+}
+
+
+.rightpix {
+	flex: 2;
+}
