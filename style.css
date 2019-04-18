@@ -65,8 +65,9 @@ body {
 .parent {
     display: flex;
     margin-left: 15%;
-    margin-right: 18%;
-		border-bottom:solid 3px #81c5db;
+    margin-right: 15%;
+    border-bottom: solid 3px #81c5db;
+    justify-content: center;
 }
 
 .mini {
@@ -77,6 +78,8 @@ body {
 
 .parent a {
 	text-decoration: none;
+    text-align: center;
+
 }
 
 .words {
