@@ -88,9 +88,13 @@ body {
 	color: #81c5db;
 }
 
+.words li {
+    padding-top: 7px;
+}
+
 .words h4 {
         color: #81c5db;
-        font-size: 25px;
+        font-size: 20px;
 }
 .one {
 		background-image: url("images/lanternscopy.jpg");
@@ -142,37 +146,37 @@ body {
 .blogone {
 		background-image:url(images/lady.jpg);
 		padding: 300px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
 		margin-top: 20px;
 }
 
 .blogtwo {
 		background-image:url(images/brightlanterns.jpg);
 		padding: 300px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
 		margin-top: 20px;
 }
 
 .blogthree {
 		background-image:url(images/temple.jpg);
 		padding: 300px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
 }
 
 /* here is some aboutme and connect css */
 .abouthero {
-    background-image: url("images/takeshita.jpg");
-    margin-top: 15px;
-    padding: 200px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+        background-image: url("images/takeshita.jpg");
+        margin-top: 15px;
+        padding: 200px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
 		background-attachment: fixed;
 }
 
@@ -233,12 +237,12 @@ input {
 /* places to eat go here*/
 
 .eathero {
-    background-image:url(images/izakayatwo.jpg);
-    margin-top: 15px;
-    padding: 200px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position:bottom;
+        background-image:url(images/izakayatwo.jpg);
+        margin-top: 15px;
+        padding: 200px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position:bottom;
 		background-attachment: fixed;
 }
 
