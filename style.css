@@ -1,27 +1,22 @@
 body {
     font-family: 'Muli', sans-serif;
 		margin: auto;
-		background-color: #f7f7ff;
-}
-
-
-div {
-    border: 2px solid lightgrey;
-    padding: 2%;
+		background-color: transparent;
+		color: #424b54;
 }
 
 .nav ul {
    	background-color: lightgrey;
-		position: fixed;
-		left: 0px;
-		right: 0px;
-		top: 0px;
-		margin-top: 0px;
-		list-style-type: none;
-        padding: 0px;
-        display: flex;
-        justify-content: space-around;
-        padding-right: 60%;
+    position: fixed;
+    left: 0px;
+	right: 0px;
+    top: 0px;		
+    margin-top: 0px;
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 60%;
 }
 
 .nav li {
@@ -29,97 +24,156 @@ div {
 }
 
 .nav a {
-	text-decoration: none;
-	color: #60656f;
+		text-decoration: none;
+		color: #60656f;
 }
 
 .nav a:hover {
-	color: #279af1;
+		color: #81c5db;
 }
 
 .nav a:active {
-	color: white;
+		color: #f7f7ff;
 }
 
 .hero {
-        background-image: url('images/tokyotower.jpg');
-		margin-top: 15px;
-		padding: 200px;
-        text-align: center;
+    background-image: url("images/tokyotower.jpg");
+    margin-top: 15px;
+    padding: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:bottom;
+    text-align: center;
+    color: white;
 }
 
 .hero h1{
-	font-size: 50px;
+		font-size: 60px;
+}
+
+.hero span {
+		background-color: #81c5db;
+		padding: 8px;
 }
 
 .infobar, .moreinfo {
     text-align: center;
+		font-size: 30px;
+		color: #81c5db;
 }
 
 .parent {
     display: flex;
     margin-left: 15%;
-    margin-right: 15%;
+    margin-right: 18%;
+		border-bottom:solid 3px #81c5db;
 }
 
 .mini {
-    flex: 1;
+   	flex: 1;
     padding: 100px;
     margin: 10px;
 }
+
+.parent a {
+	text-decoration: none;
+}
+
+.words {
+	margin-left: 2%;
+	margin-right: 2%;
+}
+.words a {
+	text-decoration: none;
+	color: #81c5db;
+}
+
+.words h4 {
+        color: #81c5db;
+        font-size: 25px;
+}
 .one {
-	background-image: url("images/lanterns.jpg");
-	background-size: cover;
+		background-image: url("images/lanternscopy.jpg");
+		background-size: cover;
 }
 
 .one h3 {
 		color: dimgrey;
 		text-align: center;
-		background-color: white;
+		background-color: #f7f7ff;
 		padding: 15px;
 }
 
 .two {
-	background-image: url("images/sushi.jpg");
-	background-size: cover;
+		background-image: url("images/dish.jpg");
+		background-size: cover;
 }
 
 .two h3 {
 		color: dimgrey;
 		text-align: center;
-		background-color: white;
+		background-color: #f7f7ff;
 		padding: 15px;
 }
 
 .three {
-	background-image: url("images/puppets.jpg");
-	background-size: cover;
+		background-image: url("images/dollscopy.jpg");
+		background-size: cover;
 }
 
 .three h3 {
 		color: dimgrey;
 		text-align: center;
-		background-color: white;
+		background-color: #f7f7ff;
 		padding: 15px;
 }
 
 .blogpost {
     display:flex;
     flex-direction: column;
+    padding-bottom: 50px;
+    border-bottom: 3px solid #81c5db;
 }
 
 .pix {
     padding: 200px;
 }
 
+.blogone {
+		background-image:url(images/lady.jpg);
+		padding: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+		margin-top: 20px;
+}
+
+.blogtwo {
+		background-image:url(images/brightlanterns.jpg);
+		padding: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+		margin-top: 20px;
+}
+
+.blogthree {
+		background-image:url(images/temple.jpg);
+		padding: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 /* here is some aboutme and connect css */
 .abouthero {
-    background-image: url("images/fountain.jpg");
+    background-image: url("images/takeshita.jpg");
     margin-top: 15px;
     padding: 200px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+		background-attachment: fixed;
 }
 
 .aboutme {
@@ -128,23 +182,41 @@ div {
 
 .about {
     flex: 2;
-    padding: 100px;
+    padding: 50px;
 }
 
+.about h2 {
+		text-align: left;
+}
+
+.about p {
+		text-align: justify;
+}
 .about a {
 	text-decoration: none;
-	color: #279af1;
+	color: #81c5db;
 }
 
+.about span {
+	color: #81c5db;
+}
 .aboutpix {
     flex: 1;
-    padding: 100px;
+    padding: 50px;
+		color: #81c5db;
+		text-align: center;
+}
+
+.aboutpix h1 {
+		font-size: 80px;
 }
 
 .contact {
     width: 360px;
     margin: auto;
     margin-top: 25px;
+		padding-top: 25px;
+		padding-bottom: 50px;
 }
 
 label {
@@ -155,64 +227,129 @@ label {
 input {
     width: 100%;
     height: 30px;
-    font-size: 12px;
+    font-size: 14px;
+}
+
+/* places to eat go here*/
+
+.eathero {
+    background-image:url(images/izakayatwo.jpg);
+    margin-top: 15px;
+    padding: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:bottom;
+		background-attachment: fixed;
 }
 
 .listing {
-	display: flex;
+		display: flex;
+		margin-top: 30px;
+		border-top: solid 3px #81c5db;
+		padding-top: 20px;
+		padding-bottom: 20px;
 }
 
-.eathero {
-    background-image: url("images/sushi.jpg");
+.listing a {
+	text-decoration: none;
+	font-size: 20px;
+	color: #81c5db;
+}
+
+.leftpixone {
+		flex: 1;
+    background-image:url("images/nodaiwa.jpg");
+    background-size: contain;
+    background-position: center;
+		background-repeat: no-repeat;
+		padding: 200px 0px 200px 0px;
+}
+
+.leftpixtwo {
+		flex: 1;
+    background-image:url("images/henrys.jpg");
+    background-size: contain;
+    background-position: center;
+		background-repeat: no-repeat;
+		padding: 200px 0px 200px 0px;
+}
+
+.rightinfo {
+		flex: 1;
+		padding-top: 25px;
+		margin-right: 5%;
+}
+
+.leftinfo {
+		flex: 1;
+		padding-top: 25px;
+		margin-left: 5%;
+}
+
+.rightpixone {
+		flex: 1;
+    background-image:url("images/tempura.jpg");
+    background-size: contain;
+    background-position: center;
+		background-repeat: no-repeat;
+		padding: 200px 0px 200px 0px;
+}
+
+.rightpixtwo {
+		flex: 1;
+    background-image:url("images/sushi.jpg");
+    background-size: contain;
+    background-position: center;
+		background-repeat: no-repeat;
+		padding: 200px 0px 200px 0px;
+}
+.rightpix {
+		flex: 1;
+}
+
+
+/* see and shop landing pages*/
+
+.seehero {
+    background-image: url("images/hachiko.jpg");
     margin-top: 15px;
     padding: 200px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+	background-attachment: fixed;
 }
 
-.leftpixone {
-	flex: 2;
-    background-image:url("images/unagi.jpg");
+.seeblogone {
+		background-image:url(images/lady.jpg);
+		padding: 200px;
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
-    padding-top: 150px;
-    padding-bottom: 150px;
 }
 
-.leftpixtwo {
-	flex: 2;
-    background-image:url("images/sushi.jpg");
+.seeblogtwo {
+		background-image:url(images/brightlanterns.jpg);
+		padding: 200px;
     background-size: cover;
-    background-position: bottom;
-    padding-top: 150px;
-    padding-bottom: 150px;
-
-}
-
-.rightinfo {
-	flex: 1;
-}
-
-.leftinfo {
-	flex: 1;
-}
-
-.rightpixone {
-     flex: 2;
-    background-image:url("images/sashimi.jpg");
-    background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
-    padding-top: 150px;
-    padding-bottom: 150px;
- 
 }
 
-.rightpixtwo {
-    flex: 2
+.seeblogthree {
+		background-image:url(images/temple.jpg);
+		padding: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-
-.rightpix {
-	flex: 2;
+.shophero {
+    background-image: url("images/shibuyatwo.jpg");
+    margin-top: 15px;
+    padding: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+	background-attachment: fixed;
 }
